@@ -21,8 +21,7 @@
 <p>For example, if <strong>R17</strong> is equal to <strong>2 megaohms</strong> and <strong>R16</strong> is equal to <strong>750 ohms</strong>, the voltage can be measured up to <strong>500 volts</strong>.</p>
 <p>It is also necessary to make changes in the Arduino codes, Additional information in the folder <span style="text-decoration: underline;"><strong>500 volts</strong></span></p>
 
-
-required pieces ::: 
+<h3><strong>required pieces ::</strong></h3>
 <table border="1">
 <tbody>
 <tr>
@@ -70,4 +69,10 @@ required pieces :::
 </tr>
 </tbody>
 </table>
-
+<h3>Test video&nbsp;</h3>
+<p>Connecting power meter to MATLAB and view the data on the chart <a href="https://youtu.be/Np4y_KRA4oQ">https://youtu.be/Np4y_KRA4oQ</a></p>
+<p>voltage measurement test <a href="https://youtu.be/dCQaTeNKbkk">https://youtu.be/dCQaTeNKbkk</a></p>
+<p>current measurement test <a href="https://youtu.be/r_vkd0LcIXw">https://youtu.be/r_vkd0LcIXw</a></p>
+<p>Relay function test <a href="https://youtu.be/pQEmvJ6B6WI">https://youtu.be/pQEmvJ6B6WI</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
