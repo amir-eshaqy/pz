@@ -251,10 +251,11 @@ void Reeding_par(){
    // Serial.println(pzem.readAddress(), HEX);
 
     // Read the data from the sensor
+    ////////////////////////////V500///////////////////////
      float x34=pzem.voltage();
     // Serial.println(x34);
      if(x34<57){
-      voltage= pzem.voltage()*1.75;}
+      voltage= pzem.voltage()*1.75;} 
      if(x34<114&&x34>57){
      voltage= pzem.voltage()*1.7701;}
      if(x34<170&&x34>114){
@@ -263,17 +264,8 @@ void Reeding_par(){
      voltage= pzem.voltage()*1.763;}
      if(x34<285&&x34>227){
      voltage= pzem.voltage()*1.76;}
-     
-     //ta 320==180
-//    voltage= ((-1.072368467078*pow(10,-9)*pow(x34,5))+(5.664796753235*pow(10,-7)*pow(x34,4))-(0.000110715*pow(x34,3))+(0.00972028*pow(x34,2))+(1.39697*x34)+(3.98128));
-   //1.758
-    //100==1333.333
-    //200==2337.662
-    //100==1.75
-    //200==1.77
-    //300==
-    //400==
-    //
+     /////////////////////////////V500//////////////////////////////
+
     current = pzem.current();
     power = pzem.power();
     energy = pzem.energy();
