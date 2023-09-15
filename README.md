@@ -66,6 +66,7 @@
 </tr>
 <tr>
 <td>n-channel MOSFET</td>
+<td>1</td>
 </tr>
 </tbody>
 </table>
@@ -76,3 +77,91 @@
 <p>Relay function test <a href="https://youtu.be/pQEmvJ6B6WI">https://youtu.be/pQEmvJ6B6WI</a></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
+
+
+<h3>Internal PLC settings :</h3>
+<p>To access the settings menu, we must first turn the <strong>MODE</strong> key on and set the required parameters with the <strong>arrow keys</strong>.</p>
+<table border="1">
+<tbody>
+<tr>
+<td><strong>parameter in the settings menu</strong></td>
+<td><strong>use</strong></td>
+</tr>
+<tr>
+<td>OVER Voltage</td>
+<td>Maximum voltage limit</td>
+</tr>
+<tr>
+<td>LOW Voltage</td>
+<td>Minimum voltage&nbsp;</td>
+</tr>
+<tr>
+<td>OVER Current</td>
+<td>maximum current limit</td>
+</tr>
+<tr>
+<td>LOW Frequency</td>
+<td>minimum frequency</td>
+</tr>
+<tr>
+<td>OVER Frequency</td>
+<td>Maximum frequency limit</td>
+</tr>
+<tr>
+<td>LOW POWER FACTOR 1</td>
+<td>steps, one power factors</td>
+</tr>
+<tr>
+<td>LOW POWER FACTOR 2</td>
+<td>steps, two power factors</td>
+</tr>
+<tr>
+<td>LOW POWER FACTOR 3</td>
+<td>steps, three power factors</td>
+</tr>
+<tr>
+<td>TMS 1 SET</td>
+<td>timer relay one</td>
+</tr>
+<tr>
+<td>TMS 2 SET</td>
+<td>timer relay two</td>
+</tr>
+<tr>
+<td>TMS 3 SET</td>
+<td>timer relay three</td>
+</tr>
+<tr>
+<td>TMS 4 SET</td>
+<td>timer relay four</td>
+</tr>
+<tr>
+<td>R1</td>
+<td>set the operation mode of relay one</td>
+</tr>
+<tr>
+<td>R2</td>
+<td>set the operation mode of relay two</td>
+</tr>
+<tr>
+<td>R3</td>
+<td>set the operation mode of relay three</td>
+</tr>
+<tr>
+<td>R4</td>
+<td>set the operation mode of relay four</td>
+</tr>
+</tbody>
+</table>
+<p>After making the settings, turn the <strong>MODE</strong> key to the off position so that the data is stored in the <strong>permanent memory</strong> of the controller</p>
+<p>* Each relay timer unit is 100 milliseconds</p>
+
+<h3>A variety of performance modes (R1,R2,R3,R4):</h3>
+<p>1- reverse time overcurrent function</p>
+<p>2- Additional constant time flow function<br />3-Overvoltage function<br />4- voltage reduction function</p>
+<p>5- frequency reduction function</p>
+<p>6- frequency increase function</p>
+<p>7- Function of the function of going out of normal mode (frequency, voltage, current)</p>
+<p>8-Function of power factor steps of one<br />9-Function of power factor steps of two<br />10- Function of power factor steps of three</p>
+<p>11-The operation of voltage out of normal mode<br />12-&nbsp;Function of frequency out of normal mode</p>
