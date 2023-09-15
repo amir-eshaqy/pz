@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Arduino Power analyzer system with Internal PLC</h1>
+<h1 align="center" id="title">Arduino Power meter system with Internal PLC</h1>
 
 <p align="center"><img src="https://s6.uupload.ir/files/layer_510_o37r.png" alt="project-image"></p>
 
