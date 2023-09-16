@@ -20,7 +20,9 @@
 <p><strong>point</strong>:By changing the resistances of <strong>R17</strong> and <strong>R16</strong> in <strong>PZEM</strong>, it is possible to measure the voltage of more than <strong>280 volts</strong> (This is a voltage divider circuit).</p>
 <p>For example, if <strong>R17</strong> is equal to <strong>2 megaohms</strong> and <strong>R16</strong> is equal to <strong>750 ohms</strong>, the voltage can be measured up to <strong>500 volts</strong>.</p>
 <p>It is also necessary to make changes in the Arduino codes, Additional information in the folder <span style="text-decoration: underline;"><strong>500 volts</strong></span></p>
+*point 2:This system also supports Modbus protocol. You can add this potkal to it. And it was in contact with other industrial equipment such as HME and PLCs
 
+____________________________________________________________________________________________
 <h3><strong>required pieces ::</strong></h3>
 <table border="1">
 <tbody>
@@ -78,7 +80,7 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-
+____________________________________________________________________________________________
 
 <h3>Internal PLC settings :</h3>
 <p>To access the settings menu, we must first turn the <strong>MODE</strong> key on and set the required parameters with the <strong>arrow keys</strong>.</p>
@@ -156,12 +158,18 @@
 </table>
 <p>After making the settings, turn the <strong>MODE</strong> key to the off position so that the data is stored in the <strong>permanent memory</strong> of the controller</p>
 <p>* Each relay timer unit is 100 milliseconds</p>
+____________________________________________________________________________________________
 
 <h3>A variety of performance modes (R1,R2,R3,R4):</h3>
 <p>1- reverse time overcurrent function</p>
-<p>2- Additional constant time flow function<br />3-Overvoltage function<br />4- voltage reduction function</p>
-<p>5- frequency reduction function</p>
-<p>6- frequency increase function</p>
-<p>7- Function of the function of going out of normal mode (frequency, voltage, current)</p>
-<p>8-Function of power factor steps of one<br />9-Function of power factor steps of two<br />10- Function of power factor steps of three</p>
-<p>11-The operation of voltage out of normal mode<br />12-&nbsp;Function of frequency out of normal mode</p>
+2- Additional constant time flow function<br />
+3-Overvoltage function<br />
+4- voltage reduction function<br />
+5- frequency reduction function<br />
+6- frequency increase function<br />
+7- Function of the function of going out of normal mode (frequency, voltage, current)<br />
+8-Function of power factor steps of one<br />
+9-Function of power factor steps of two<br />
+10- Function of power factor steps of three<br />
+11-The operation of voltage out of normal mode<br />
+12-&nbsp;Function of frequency out of normal mode</p>
